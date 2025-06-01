@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Recipe generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>Welcome to recipe generator</h1>
       </header>
       <main>
-        <form>
+        <form id="form-ingredient">
           <input
             type="search"
             placeholder="Enter food"
@@ -22,21 +23,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="instruction">
-          <br />
-          Recipe for Beef stew:
-          <br />
-          Ingredient:
-          <br />
-          Beef stew meat
-          <br />
-          Vegetables: Tender potatoes, onions, carrots and peas give the stew
-          body and texture.
-          <br />
-          Flour:All-purpose flour
-          <br />Seasonings: garlic, salt, smoked paprika, herbes de Provence,
-          fresh rosemary and bay leaves.
-        </div>
+        <div class="instruction" id="instruction"></div>
       </main>
 
       <footer>
