@@ -1,0 +1,46 @@
+body {
+  background-color: cornsilk;
+  border-radius: 20px;
+}
+a {
+  color: aqua;
+}
+header {
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serifs;
+}
+.container {
+  background-color: white;
+  margin: 120px auto;
+  max-width: 600px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.search-button {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  box-shadow: 10px #fff;
+}
+.submit-button {
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: aqua;
+}
+.submit-button:hover {
+  background-color: white;
+}
+.instruction {
+  line-height: 30px;
+}
+footer {
+  background-color: cornsilk;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+}
